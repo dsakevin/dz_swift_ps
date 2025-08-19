@@ -20,3 +20,4 @@ if count%10==1 {
 
 let result = "В корзине \(count) \(apples)"
 print(result)
+
