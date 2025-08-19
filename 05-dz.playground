@@ -1,0 +1,13 @@
+//Домашнее задание по теме условные операторы
+let count : UInt=154
+let apples:String
+if count%10==1 {
+    apples="яблоко"
+} else if count%10>1 && count%10<5 {
+    apples="яблока"
+} else {
+    apples="яблок"
+}
+
+let result = "В корзине \(count) \(apples)"
+print(result)
