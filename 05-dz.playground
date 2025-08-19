@@ -1,10 +1,19 @@
 //Домашнее задание по теме условные операторы
-let count : UInt=154
+let count : UInt=14
 let apples:String
 if count%10==1 {
-    apples="яблоко"
+    if count%100==11 {
+        apples="яблок"
+    } else {
+        apples="яблоко"
+    }
+    
 } else if count%10>1 && count%10<5 {
-    apples="яблока"
+    if count%100>=11 && count%100<=14 {
+        apples="яблок"
+    } else {
+        apples="яблока"
+    }
 } else {
     apples="яблок"
 }
